@@ -9,12 +9,15 @@
     "start3": "nodemon fs.js",
     "start4": "nodemon http.js",
     "start5": "nodemon rest.js",
+    "server": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15",
     "nodemon": "^2.0.6"
   }
 }
